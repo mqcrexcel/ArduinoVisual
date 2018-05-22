@@ -1,0 +1,47 @@
+﻿Launching Debugger...
+   - Serial debug will start immediately. WiFi (or gdb) debug will start a few seconds or a short time after the remote device connects to the network.
+   - Switch on 'vmicro>debugger>full speed' to prevent debugger message throttling. (read the docs)
+   - If 'in-break live watch' is disabled, continue an existing paused debug session by sending the character 'c' to the board using the Serial window.
+   - If uploading on WiFi but debug is on Serial then it is possible the cpu will be in debug break when OTA upload is attempting connect. If this is the case then sending char 'c' using the serial/debug terminal will force the mcu to continue (like F5).
+   - WiFi debug? Wifi debug is not fully supported yet. Use the vMicro>Debugger menu to set an alternative debug port such as Serial (default speed is 115k)
+   - To view debug messages without trace messages use the 'message windows' option on the monitor window.
+   - Switch off this message and other Tutorial messages using the 'vMicro>General' menu
+21:47:12.168    GPIO Read.ino, line 40		millis()=3012
+     Millis is currently 3012.
+21:47:13.172 [up:04s:018ms perf:1000ms]   GPIO Read.ino, line 40		millis()=4019
+     Millis is currently 4019.
+21:47:14.200 [up:05s:026ms perf:1001ms]   GPIO Read.ino, line 40		millis()=5026
+     Millis is currently 5026.
+21:47:15.187 [up:06s:032ms perf:1000ms]   GPIO Read.ino, line 40		millis()=6033
+     Millis is currently 6033.
+21:47:16.199 [up:07s:041ms perf:1002ms]   GPIO Read.ino, line 40		millis()=7041
+     Millis is currently 7041.
+21:47:17.202 [up:08s:046ms perf:999ms]   GPIO Read.ino, line 40		millis()=8047
+     Millis is currently 8047.
+21:47:18.219 [up:09s:055ms perf:1002ms]   GPIO Read.ino, line 40		millis()=9055
+     Millis is currently 9055.
+21:47:19.218 [up:10s:060ms perf:999ms]   GPIO Read.ino, line 40		millis()=10061
+     Millis is currently 10061.
+21:47:20.229 [up:11s:067ms perf:1000ms]   GPIO Read.ino, line 40		millis()=11068
+     Millis is currently 11068.
+21:47:21.244 [up:12s:076ms perf:1002ms]   GPIO Read.ino, line 40		millis()=12076
+     Millis is currently 12076.
+21:47:22.244 [up:13s:082ms perf:999ms]   GPIO Read.ino, line 40		millis()=13083
+     Millis is currently 13083.
+21:47:23.263 [up:14s:091ms perf:1002ms]   GPIO Read.ino, line 40		millis()=14091
+     Millis is currently 14091.
+21:47:24.260 [up:15s:097ms perf:999ms]   GPIO Read.ino, line 40		millis()=15098
+     Millis is currently 15098.
+21:47:25.279 [up:16s:105ms perf:1001ms]   GPIO Read.ino, line 40		millis()=16105
+     Millis is currently 16105.
+21:47:26.291 [up:17s:114ms perf:1002ms]   GPIO Read.ino, line 40		millis()=17114
+     Millis is currently 17114.
+21:47:27.286 [up:18s:120ms perf:999ms]   GPIO Read.ino, line 40		millis()=18121
+     Millis is currently 18121.
+21:47:28.312 [up:19s:129ms perf:1002ms]   GPIO Read.ino, line 40		millis()=19129
+     Millis is currently 19129.
+21:47:29.302 [up:20s:135ms perf:999ms]   GPIO Read.ino, line 40		millis()=20136
+     Millis is currently 20136.
+21:47:30.349 [up:21s:143ms perf:1001ms]   GPIO Read.ino, line 40		millis()=21143
+     Millis is currently 21143.
+Debugging has exited
